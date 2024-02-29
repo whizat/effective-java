@@ -91,7 +91,7 @@ public final class Complex {
    - 각 단계마다 객체 생성 안해도 됨
    - 불면 필드로 오래걸리는 연산을 가변 필드로 처리하기 위해서 package-private 가변 클래스를 만들어서 외부에 API로 노출 하지 않고 불변 클래스 내에서 사용
    - 예) BigInteger와 MutableBigInteger
-3. package-private의 가변 동반 클래스로 제공
+2. 예측하기 어렵다면 package-private의 가변 동반 클래스로 제공
    - String, StringBuilder, StringBuffer
 ### 불변 클래스로 만드는 방법
 1. class를 final로 선언
