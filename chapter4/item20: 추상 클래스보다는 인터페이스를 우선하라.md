@@ -221,5 +221,5 @@ public class Developer extends SalaryAccount implements Employee {
 - 동작 방식을 잘 정리해 문서로 남겨야 한다
 ### 단순 구현(simple implementation)
 - 골격 구현의 작은 변종
-- 상속을 위해 인터페이스를 구현한 것이지만 추상 클래스가 아니다(AbstractMap.SimpleEntry 예제를 확인했는데 static 클래스인거 말고 일반 구현 클래스와 다른점이 무엇인지 모르겠음. 그냥 인터페이스 구현인데, 골격의 변종이라고 하는 사유가 뭔지?)
+- 상속을 위해 인터페이스를 구현한 것이지만 추상 클래스가 아니다(AbstractMap.SimpleEntry 예제를 확인했는데 정적 멤버 클래스인거 말고 일반 구현 클래스와 다른점이 무엇인지 모르겠음. 그냥 인터페이스 구현인데, 골격의 변종이라고 하는 사유가 그냥 용어적인 표현?)
 - 그대로 써도, 필요에 맞게 확장해서 써도 좋다
